@@ -6,9 +6,9 @@ AI-powered workflow that automates playtest feedback analysis using Python, Open
 
 ## 🌐 Live Demo
 
-**Website:** [Live Website](YOUR_WEBSITE_LINK)
+**Website:** [Live Website](https://tideboundgames.lovable.app/)
 
-**Case Study:** [Google Slides Presentation](https://tideboundgames.lovable.app/)
+**Case Study:** [Google Slides Presentation](https://docs.google.com/presentation/d/18fAqJl6uFvYU-09LYNv7RpCYiSEJvcIxCjbUF4Py1Gc/edit?usp=sharing)
 
 ---
 
