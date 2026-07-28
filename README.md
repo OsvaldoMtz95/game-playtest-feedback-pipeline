@@ -32,13 +32,30 @@ Built an end-to-end automation pipeline that collects Google Form responses, con
 
 ## Workflow
 
-1. Players submit feedback through a Google Form.
-2. Responses are automatically stored in Google Sheets.
-3. A Python script converts the responses into structured JSON.
-4. Zapier sends the JSON to OpenAI for analysis.
-5. AI generates a summarized QA report with development priorities.
-6. A human approval step reviews the report.
-7. The approved report is automatically emailed to the development team.
+
+1. Google Forms responses are stored in Google Sheets.
+2. Zapier retrieves the latest responses.
+3. **QuestionResponseFormatter.py** converts the raw spreadsheet data into structured `{Question: Response}` JSON.
+4. Gemini AI analyzes the formatted responses.
+5. A summarized report of bugs, suggestions, and overall player feedback is generated.
+
+## Technologies
+
+- Zapier
+- Python
+- Google Forms
+- Google Sheets
+- Gemini AI
+
+## Sample JSON
+
+```json
+{
+  "How fun was the game?": "Very fun",
+  "What was confusing?": "The inventory",
+  "Would you play again?": "Yes"
+}
+```
 
 ---
 
